@@ -6749,9 +6749,3 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   display: flex;
 justify-content: center;
 }
-
-/*#alineat{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}*/
