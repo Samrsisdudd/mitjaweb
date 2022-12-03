@@ -1,0 +1,75 @@
+.supercont-de-targ{
+    padding-top: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+    .cont-de-targ{
+        margin: auto;
+        width: 95%;
+        color: #111;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }    
+        .targ{
+            width: 100%;
+            max-width: 180px;
+            min-width: 100px;
+            margin: 1vw 1vw;
+            padding: 1vh 0vw;
+            padding-bottom: 3vh;
+            border-radius: 20px;
+            background-color: rgb(246, 246, 246);
+            box-shadow: 0 7px 10px rgb(37, 37, 37);
+            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: left;
+        }
+            .targ>p{
+                font-size: 12px;
+                margin: 1vh;
+                max-width: 80%;
+                text-align: left;
+               
+            }
+            .targ>img{
+                height: 100px;
+                width: 100px; 
+                border: 3px solid rgb(211, 211, 211);
+                border-radius: 100%;
+            }
+            .targ>a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+            }
+                .targ>a>h4{
+                    padding: 5px;
+                    font-size: 15px;
+                    color: rgb(49, 49, 49);
+                }
+                /* .card-item>a>img{
+                    height: 25px;
+                    margin: 7px;
+                }
+                .card-item>a>p{
+                    color: cornflowerblue;
+                } */
+        #ult-targ{                
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: left;
+        }/**/
+
+        .targ>img{
+            width: 100px; 
+            border: 3px solid rgb(211, 211, 211);
+            border-radius: 100%;
+        }
